@@ -1,0 +1,94 @@
+
+@keyframes fallingSakura1 {
+  0% {
+    transform:
+      translate3d(0,0,0)
+      rotateX(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform:
+      translate3d(400px,1180px,0px)
+      rotateX(-290deg);
+    opacity: 0.3;
+  }
+}
+
+@keyframes fallingSakura2 {
+  0% {
+    transform:
+      translate3d(0,0,0)
+      rotateX(-20deg);
+    opacity: 1;
+  }
+  100% {
+    transform:
+      translate3d(200px,1180px,0px)
+      rotateX(-70deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes fallingSakura3 {
+  0% {
+    transform:
+      translate3d(0,0,0)
+      rotateX(90deg);
+    opacity: 1;
+  }
+  100% {
+    transform:
+      translate3d(500px,1180px,0px)
+      rotateX(290deg);
+    opacity: 0;
+  }
+}
+
+// Media Queries
+
+@media (max-width:687px) {
+  @keyframes fallingSakura1 {
+    0% {
+      transform:
+        translate3d(0,0,0)
+        rotateX(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform:
+        translate3d(100px,950px,0px)
+        rotateX(-290deg);
+      opacity: 0.3;
+    }
+  }
+
+  @keyframes fallingSakura2 {
+    0% {
+      transform:
+        translate3d(0,0,0)
+        rotateX(-20deg);
+      opacity: 1;
+    }
+    100% {
+      transform:
+        translate3d(50px,950px,0px)
+        rotateX(-70deg);
+      opacity: 0.2;
+    }
+  }
+
+  @keyframes fallingSakura3 {
+    0% {
+      transform:
+        translate3d(0,0,0)
+        rotateX(90deg);
+      opacity: 1;
+    }
+    100% {
+      transform:
+        translate3d(150px,950px,0px)
+        rotateX(290deg);
+      opacity: 0;
+    }
+  }
+}

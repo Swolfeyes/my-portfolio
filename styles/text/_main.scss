@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+.text {
+  font-family: 'Cinzel', serif;
+}
+
+// Size
+
+.text {
+  &--size-small {
+    font-size: 12px;
+  }
+
+  &--size-medium {
+    font-size: 14px;
+  }
+
+  &--size-medium-large {
+    font-size: 20px;
+  }
+
+  &--size-large {
+    font-size: 40px;
+  }
+}
+
+// Font family
+
+.text {
+
+  &--family-delafield {
+    font-family: 'Mrs Saint Delafield', cursive;
+  }
+
+  &--family-old-standard {
+    font-family: 'Josefin Slab', serif;
+  }
+}
+
+// Themes
+
+.text {
+  &--theme-white {
+    color: #fff;
+  }
+
+  &--theme-grey {
+    color: #524C61;
+  }
+
+  &--theme-mobster {
+    color:#948598;
+  }
+
+  &--theme-bright-lavender {
+    color: #BF8ADE;
+  }
+}
+
+// Styles
+
+.text {
+
+  &--style-highlighted {
+    span {
+      font-weight: bold;
+      font-size: 24px;
+      color: #948598;
+    }
+  }
+}
+
+// Media Queries
+
+@media (max-width: 687px) {
+  .text {
+    &--s-small {
+      font-size: 22px;
+    }
+  }
+}

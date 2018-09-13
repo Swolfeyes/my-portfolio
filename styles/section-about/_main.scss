@@ -1,0 +1,37 @@
+.section-about {
+  display: table;
+  width: 100%;
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__description {
+    display: table;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 80px;
+
+    &__image {
+      display: table;
+      margin: auto;
+      overflow: hidden;
+
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+        box-shadow: 2px 3px 6px (#ccc - 30);
+        opacity: 0.9;
+      }
+    }
+
+    &__text {
+      padding-top: 20px;
+      text-align: center;
+    }
+  }
+}

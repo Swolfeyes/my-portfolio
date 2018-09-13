@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  width: 100%;
+
+  &__item {
+    flex-basis: auto;
+
+    &--shrink {
+      flex-shrink: 1;
+    }
+
+    &--grow {
+      flex-grow: 1;
+    }
+  }
+}
+
+//Type
+
+.flex {
+  &--navigation {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  &--footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Media Queries
+
+@media (max-width: 687px) {
+  .flex {
+    flex-direction: column;
+  }
+}
