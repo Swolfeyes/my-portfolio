@@ -686,7 +686,6 @@ figure.effect:hover p {
 .section-about__description__image {
   display: table;
   margin: auto;
-  overflow: hidden;
 }
 .section-about__description__image img {
   max-width: 100%;
